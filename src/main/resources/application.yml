@@ -1,0 +1,19 @@
+file:
+  storage:
+    location: D:\képek\Mentett
+
+server:
+  port: 8081
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 20MB
+      max-file-size: 20MB
+      max-request-size: 20MB
+
+
+
+
+
